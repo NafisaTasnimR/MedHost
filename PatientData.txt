@@ -1,0 +1,7 @@
+a,1,male,123,12/3/23,7/5/23,0123,189,a.com,b.com,mirpur,Admitted,n/a,301,4a
+b,1,male,123,12/3/23,7/5/23,0123,189,a.com,b.com,mirpur,Admitted,n/a,301,4ab,
+c,3,Female,ab64,29/05/2024,29/05/2024,123r,124,ad,df,qefreg,Admitted,n/a,201,4c
+y,78,Male,ab813,01/06/2024,02/06/2024,1246,neknsu,kesl,rue,akaw,Admitted,n/a,301,3d
+nishat,22,Female,ab1867,17/06/2004,02/06/2024,018,019,nishat@gmail.com,nafisa@gmail.com,uttora,Admitted,n/a,678,2b
+gojo,30,Male,ab1862,26/05/2024,03/06/2024,0123,0345,gojo@gmail.com,saturo@gmail.com,tokyo,Admitted,n/a,34,1d
+an,37,Male,ab638,26/05/2024,03/06/2024,1234,118434,wqc,yecgy,iescb,Admitted

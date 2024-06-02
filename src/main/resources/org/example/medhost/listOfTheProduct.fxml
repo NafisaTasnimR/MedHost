@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.medhost.ListOfTheProductController">
+   <children>
+      <VBox layoutY="1.0" prefHeight="600.0" prefWidth="700.0">
+         <children>
+            <Pane prefHeight="53.0" prefWidth="600.0">
+               <children>
+                  <Button fx:id="homeButton" layoutX="20.0" layoutY="14.0" mnemonicParsing="false" onAction="#homeButtonHandler" prefHeight="27.0" prefWidth="63.0" text="Home">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="logOutButton" layoutX="614.0" layoutY="13.0" mnemonicParsing="false" onAction="#logOutButtonHandler" text="LogOut">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane prefHeight="94.0" prefWidth="700.0">
+               <children>
+                  <Label fx:id="productListLabel" layoutX="48.0" layoutY="34.0" text="List Of Product">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane prefHeight="380.0" prefWidth="700.0">
+               <children>
+                  <TableView fx:id="productTable" layoutX="41.0" layoutY="53.0" prefHeight="268.0" prefWidth="619.0">
+                    <columns>
+                      <TableColumn fx:id="snColumn" prefWidth="65.0" text="SN" />
+                      <TableColumn fx:id="itemNoColumn" prefWidth="110.0" text="Item No." />
+                        <TableColumn fx:id="productNameColumn" prefWidth="250.0" text="Product Name" />
+                        <TableColumn fx:id="expireDateColumn" prefWidth="190.0" text="Expire Date" />
+                    </columns>
+                  </TableView>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

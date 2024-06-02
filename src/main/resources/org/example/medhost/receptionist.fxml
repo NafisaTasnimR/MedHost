@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.medhost.ReceptionistController">
+   <children>
+      <SplitPane dividerPositions="0.1407710280373832" orientation="VERTICAL" prefHeight="600.0" prefWidth="700.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="53.0" prefWidth="545.0" style="-fx-background-color: skyblue;">
+               <children>
+                  <Button fx:id="logOutButton" layoutX="598.0" layoutY="23.0" mnemonicParsing="false" onAction="#logOutButtonHandler" text="Log Out" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="464.0" prefWidth="640.0">
+               <children>
+                  <Button fx:id="patientRegistrationButton" layoutX="262.0" layoutY="32.0" mnemonicParsing="false" onAction="#patientRegistrationButtonHandler" prefHeight="76.0" prefWidth="174.0" style="-fx-background-color: skyblue;" text="Patient Registration">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="doctorAppointmentButton" layoutX="262.0" layoutY="124.0" mnemonicParsing="false" onAction="#doctorAppointmentButtonHandler" prefHeight="76.0" prefWidth="174.0" style="-fx-background-color: skyblue;" text="Doctor Appointment">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="inPatientManagementButton" layoutX="262.0" layoutY="225.0" mnemonicParsing="false" onAction="#inPatientManagementButtonHandler" prefHeight="76.0" prefWidth="174.0" style="-fx-background-color: skyblue;" text="In Patient Management">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="inventoryButton" layoutX="262.0" layoutY="319.0" mnemonicParsing="false" onAction="#inventoryButtonHandler" prefHeight="76.0" prefWidth="174.0" style="-fx-background-color: skyblue;" text="Inventory">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="billingButton" layoutX="262.0" layoutY="409.0" mnemonicParsing="false" onAction="#billingButtonHandler" prefHeight="76.0" prefWidth="174.0" style="-fx-background-color: skyblue;" text="Billing">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
